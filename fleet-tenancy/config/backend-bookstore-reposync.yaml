@@ -31,7 +31,7 @@ metadata:
 spec:
   sourceFormat: unstructured
   git:
-    repo: https://github.com/GoogleCloudPlatform/anthos-config-management-samples
+    repo: https://github.com/Somabharath/anthos-config-management-samples
     branch: main
     dir: fleet-tenancy/teams/backend/bookstore
     auth: none
