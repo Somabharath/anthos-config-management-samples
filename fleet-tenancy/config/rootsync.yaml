@@ -1,0 +1,12 @@
+apiVersion: configsync.gke.io/v1beta1
+kind: RootSync
+metadata:
+  name: rootsyncprod
+  namespace: config-management-system
+spec:
+  sourceFormat: unstructured
+  git:
+    repo: https://github.com/Somabharath/reposyncdemo.git
+    branch: main
+    dir: /Applications/prod/
+    auth: none
